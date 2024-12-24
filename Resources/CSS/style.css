@@ -36,12 +36,17 @@ body::-webkit-scrollbar-thumb {
 .container {
 
     padding: 20px 20px 20px 100px;
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    align-content: space-evenly;
   }
+  .container-overall {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
 
 html {
   background: #1c2834;
@@ -93,7 +98,7 @@ header {
   }
   .summary {
   
-    padding: 20px 100px;
+    padding: 50px 100px 20px;
     text-align: left;
     margin: 20px 0;
   }
@@ -116,7 +121,8 @@ header {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     width: auto;
-    align-content: center;
+    text-align: center;
+    
   }
   .summary-photo {
     height: 500px;
@@ -140,10 +146,9 @@ header {
   .process-container {
     background-color: #2c3e50;
     padding: 10px;
-    text-align: left;
+    text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    width: auto;
   }
   .process-photo {
   height: 300px;
